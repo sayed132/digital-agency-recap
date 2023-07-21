@@ -43,7 +43,7 @@
     background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,5 +85,19 @@
     transform: scale(1.1);
     transition: 1s;
     background-color: blueviolet;
+    color: white;
+}
+/* service section */
+
+.service-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.97), rgba(0,0,0,0.96));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
