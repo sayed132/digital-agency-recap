@@ -91,7 +91,6 @@
 
 .service-container{
     width: 100%;
-    height: 100vh;
     background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.97), rgba(0,0,0,0.96));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -162,4 +161,139 @@
 .service-right-container{
     
     display: flex;
+}
+/* blog section */
+.blog-container{
+    width: 100%;
+    background-color: white !important;
+    text-align: center;
+    margin: 0 auto;
+}
+.make-appointment{
+    width: 85%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: red !important;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 3px solid gray;
+    margin-right: 10px;
+    padding-right: 60px;
+}
+.contact-img{
+    width: 130px;
+    margin-right: 10px;
+}
+.contact-number h2{
+    font-size: 12px;
+}
+.contact-number h3{
+    font-size: 28px;
+}
+.contact-details{
+    margin: 0px 6px;
+    padding-right: 10px;
+}
+.contact-details p{
+    font-size: 20px;
+}
+
+.news-div{
+    display: flex;
+
+    
+}
+.news-items{
+    width: 35%;
+    height: 490px;
+    margin: 20px;
+    text-align: start;
+    box-shadow: 4px 4px 6px gray;
+    border-radius: 10px;
+}
+.news-img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.news-heading{
+    font-size: 28px;
+    margin: 15px 0px;
+    padding-left: 10px;
+}
+.news-decs{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.blog-heading{
+    font-size: 48px;
+    margin: 20px 0px;
+}
+.blog-desc{
+    font-size: 18px;
+    margin-bottom: 38px;
+}
+
+/* footer */
+/* .footer-div{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.97), rgba(0,0,0,0.96));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+} */
+
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
 }
